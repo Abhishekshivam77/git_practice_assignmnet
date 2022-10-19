@@ -1,9 +1,15 @@
 let n = 5;
 let count = 0;
-if(n%2 ==1){
-count++;}
+
+for(i=1; i<=n; i++){
+
+if(n%i ==0){
+count++;
+}
+}
 if(count ==2){
-console.log("PrimeNo");
-} else{
-console.log("NotPrime");
+console.log("Prime No.");
+} 
+else{
+console.log("Not Prime");
 }
